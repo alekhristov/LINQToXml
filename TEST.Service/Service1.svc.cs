@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
-using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -24,7 +18,6 @@ namespace TEST.Service
         public GetLocalizationFileData GetCodesOfSupportedLanguages()
         {
             var projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
-
             var getLocalizationFileData = new GetLocalizationFileData();
 
             var xdoc = XDocument.Load(projectDirectory + "\\Localization.xml");
@@ -43,27 +36,5 @@ namespace TEST.Service
 
             return getLocalizationFileData;
         }
-
-        //    public List<LocalizationKey> LocalizationKeys()
-        //    {
-        //        var projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
-
-        //        var listOfLocalizationKeys = new List<LocalizationKey>();
-
-        //        var xdoc = XDocument.Load(projectDirectory + "\\Localization.xml");
-
-        //        using (var fileStream = new FileStream(projectDirectory + "\\Localization.xml", FileMode.Open))
-        //        {
-        //            var xmlSerializer = new XmlSerializer(typeof(Localization));
-        //            var localization = xmlSerializer.Deserialize(fileStream) as Localization;
-
-        //            if (localization != null)
-        //            {
-        //                listOfLocalizationKeys = localization.LanguageCode.Select(l => l.Value).ToList();
-        //            }
-        //        }
-
-        //        return listOfLocalizationKeys;
-        //    }
     }
 }

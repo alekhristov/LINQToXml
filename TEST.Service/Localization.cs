@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Xml.Serialization;
+﻿using System.Xml.Serialization;
 
 namespace TEST.Service
 {
@@ -16,6 +12,5 @@ namespace TEST.Service
         [XmlArray("LocalizationKeys")]
         [XmlArrayItem("LocalizationKey")]
         public LocalizationKey[] LocalizationKey { get; set; }
-
     }
 }
