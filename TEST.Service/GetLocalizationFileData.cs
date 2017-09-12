@@ -9,6 +9,6 @@ namespace TEST.Service
     {
         public List<string> ListOfSupportedLanguages { get; set; }
 
-        public IDictionary<string, IDictionary<string, string>> ListOfLocalizationKeys { get; set; }
+        public List<LocalizationKey> ListOfLocalizationKeys { get; set; }
     }
 }
