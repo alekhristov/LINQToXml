@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SupportedLanguageCodes>
+    <LanguageCode>en</LanguageCode>
+    <LanguageCode>ar</LanguageCode>
+    <LanguageCode>fr</LanguageCode>
+    <LanguageCode>es</LanguageCode>
+    <LanguageCode>ru</LanguageCode>
+    <LanguageCode>zh</LanguageCode>
+    <LanguageCode>it</LanguageCode>
+    <LanguageCode>ja</LanguageCode>
+    <LanguageCode>pl</LanguageCode>
+    <LanguageCode>sv</LanguageCode>
+    <LanguageCode>cs</LanguageCode>
+    <LanguageCode>sk</LanguageCode>
+  </SupportedLanguageCodes>
+  <LocalizationKeys>
+    <LocalizationKey Key="change_password">
+      <Value Language="en">Change Password</Value>
+      <Value Language="ar">تغيير كلمة المرور</Value>
+      <Value Language="fr">Changer mot de passe</Value>
+      <Value Language="es">Cambiar contraseña</Value>
+      <Value Language="ru">Изменить пароль</Value>
+      <Value Language="zh">更换密码</Value>
+      <Value Language="it">Cambia la Password</Value>
+      <Value Language="ja">パスワードの変更</Value>
+      <Value Language="pl">Zmień hasło</Value>
+      <Value Language="sv">Ändra lösenord</Value>
+      <Value Language="cs">Změnit heslo</Value>
+      <Value Language="sk">Zmeniť heslo</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="old_password">
+      <Value Language="en">Old Password</Value>
+      <Value Language="ar">كلمة المرور القديمة</Value>
+      <Value Language="fr">Ancien mot de passe</Value>
+      <Value Language="es">Vieja contraseña</Value>
+      <Value Language="ru">Старый пароль</Value>
+      <Value Language="zh">旧密码</Value>
+      <Value Language="it">Vecchia Password</Value>
+      <Value Language="ja">古いパスワード</Value>
+      <Value Language="pl">Stare hasło</Value>
+      <Value Language="sv">Gammalt lösenord</Value>
+      <Value Language="cs">Staré heslo</Value>
+      <Value Language="sk">Staré heslo</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="new_password">
+      <Value Language="en">New Password</Value>
+      <Value Language="ar">كلمة المرور الجديدة</Value>
+      <Value Language="fr">Nouveau mot de passe</Value>
+      <Value Language="es">Nueva contraseña</Value>
+      <Value Language="ru">Новый пароль</Value>
+      <Value Language="zh">新密码</Value>
+      <Value Language="it">Nuova Password</Value>
+      <Value Language="ja">新パスワード</Value>
+      <Value Language="pl">Nowe hasło</Value>
+      <Value Language="sv">Nytt lösenord</Value>
+      <Value Language="cs">Nové heslo</Value>
+      <Value Language="sk">Nové heslo</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="confirm_new_password">
+      <Value Language="en">Confirm New Password</Value>
+      <Value Language="ar">تأكيد كلمة المرور</Value>
+      <Value Language="fr">Confirmer mot de passe</Value>
+      <Value Language="es">Confirmar contraseña</Value>
+      <Value Language="ru">Подтвердите пароль</Value>
+      <Value Language="zh">确认密码</Value>
+      <Value Language="it">Conferma la Password</Value>
+      <Value Language="ja">パスワードの確認</Value>
+      <Value Language="pl">Potwierdź hasło</Value>
+      <Value Language="sv">Bekräfta lösenord</Value>
+      <Value Language="cs">Potvrdit heslo</Value>
+      <Value Language="sk">Potvrdiť heslo</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="show_password">
+      <Value Language="en">Show Password</Value>
+      <Value Language="ar">أدخل كلمة المرور</Value>
+      <Value Language="cs">Zobrazit heslo</Value>
+      <Value Language="fr">Montrer mot de passe</Value>
+      <Value Language="it">Mostra la password</Value>
+      <Value Language="pl">Pokaż hasło</Value>
+      <Value Language="ru">Отображать пароль</Value>
+      <Value Language="sk">Zobraziť heslo</Value>
+      <Value Language="es">Mostrar contraseña</Value>
+      <Value Language="sv">Visa lösenord</Value>
+      <Value Language="zh">显示密码</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="wrong_old_password">
+      <Value Language="en">Incorrect password, please type your current (old) password again.</Value>
+      <Value Language="ar">كلمة المرور غير صحيحة، يرجى إدخال كلمة المرور الحالية (القديمة) مرة أخرى.</Value>
+      <Value Language="cs">Nesprávné heslo. Zadejte své stávající (staré) heslo znovu.</Value>
+      <Value Language="fr">Mot de passe incorrect, veuillez introduire votre mot de passe (ancien) à nouveau.</Value>
+      <Value Language="it">Passoword errata, digita nuovamente la password attuale (vecchia).</Value>
+      <Value Language="pl">Nieprawidłowe hasło, wprowadź ponownie swoje obecne (stare) hasło.</Value>
+      <Value Language="ru">Неправильный пароль. Пожалуйста, повторите ввод своего текущего (старого) пароля.</Value>
+      <Value Language="sk">Nesprávne heslo, napíšte svoje aktuálne (staré) heslo znova.</Value>
+      <Value Language="es">Contraseña incorrecta; vuelva a escribir su contraseña actual (antigua).</Value>
+      <Value Language="sv">Lösenordet stämmer inte; var god ange ditt aktuella (gamla) lösenord igen.</Value>
+      <Value Language="zh">密码错误，请再次输入当前（旧）密码。</Value>
+    </LocalizationKey>
+
+    <LocalizationKey Key="new_password_and_confirmation_dont_match">
+      <Value Language="en">The new password and the confirmation password don’t match. Please type the same password in both boxes</Value>
+      <Value Language="ar">هناك عدم تطابق بين كلمة المرور الجديدة وتأكيدها. الرجاء كتابة نفس كلمة المرور في كلا المربعين.</Value>
+      <Value Language="fr">Le nouveau mot de passe et sa confirmation sont différents. Veuillez entrer les mêmes.</Value>
+      <Value Language="es">La nueva contraseña y la contraseña de confirmación no coinciden. Ingrese la misma contraseña en ambos espacios</Value>
+      <Value Language="ru">Новый пароль и пароль подтверждения не совпадают. Пожалуйста, введите одинаковые пароли в оба поля</Value>
+      <Value Language="zh">新的密码与确认密码不吻合。请在该两栏输入相同的密码</Value>
+      <Value Language="it">La nuova password e quella utilizzata per la conferma non coincidono. Per favore usa la stessa password in entrambe le caselle</Value>
+      <Value Language="ja">新しいパスワードと確認用パスワードが一致しません。両方のボックスに同じパスワードを入力してください</Value>
+      <Value Language="pl">Nowe hasło i potwierdzenie hasła nie pasują do siebie. Wpisz to same hasło w obu polach.</Value>
+      <Value Language="sv">Det nya lösenordet och bekräftelselösenordet överensstämmer inte. Vänligen skriv in samma lösenord i båda rutorna</Value>
+      <Value Language="cs">Nové heslo se neshoduje s jemu odpovídajícím potvrzovacím heslem. Zadejte prosím stejné heslo v obou polích</Value>
+      <Value Language="sk">Nové heslo a potvrdzovacie heslo sa nezhodujú. Prosíme, napíšte rovnaké heslo do obidvoch tabuliek.</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="password_requirements_explanation">
+      <Value Language="en">Your password must contain 8-12 characters, at least 1 letter and 1 digit.</Value>
+      <Value Language="ar">يجب أن تحتوي كلمة المرور على 8-12 رمزًا؛ منها على الأقل حرفًا واحدًا ورقمًا واحدًا.</Value>
+      <Value Language="fr">Votre mot de passe doit contenir 8 à 12 caractères, au moins 1 lettre et 1 chiffre.</Value>
+      <Value Language="es">Su contraseña debe contener entre 8 y 12 caracteres, al menos una letra y un dígito.</Value>
+      <Value Language="ru">Ваш пароль должен содержать 8-12 символов, хотя бы 1 букву и 1 цифру.</Value>
+      <Value Language="zh">您的新密码必须包含 8-12位字符，最少1个字母以及1个号码。</Value>
+      <Value Language="it">La tua password deve contenere 8-12 caratteri con almeno 1 lettera ed un numero.</Value>
+      <Value Language="ja">パスワードは必ず半角英数字を組み合わせて、８～１２文字で設定してください。</Value>
+      <Value Language="pl">Twoje hasło musi mieć długość od 8 do 12 znaków i zawierać przynajmniej jedną literę i jedną cyfrę</Value>
+      <Value Language="sv">Ditt lösenord måste innehålla 8-12 tecken, minst 1 bokstav och 1 siffra.</Value>
+      <Value Language="cs">Vaše heslo musí obsahovat 8-12 znaků, z toho alespoň 1 písmeno a alespoň 1 číslici</Value>
+      <Value Language="sk">Vaše heslo musí obsahovať 8-12 znakov, aspoň 1 písmeno a 1 číslicu.</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="new_and_old_password_identical">
+      <Value Language="en">The new password is identical to the old password</Value>
+      <Value Language="ar">كلمة المرور الجديدة مطابقة لكلمة المرور القديمة</Value>
+      <Value Language="fr">Le nouveau mot de passe est identique à l'ancien</Value>
+      <Value Language="es">La nueva contraseña es idéntica a la vieja</Value>
+      <Value Language="ru">Новый и старый пароли совпадают</Value>
+      <Value Language="zh">新密码与旧密码相同</Value>
+      <Value Language="it">La nuova password e' identica alla vecchia</Value>
+      <Value Language="ja">新しいパスワードは、古いパスワードと同じです</Value>
+      <Value Language="pl">Nowe hasło jest identyczne jak poprzednie hasło.</Value>
+      <Value Language="sv">Det nya lösenordet är identiskt med det gamla lösenordet</Value>
+      <Value Language="cs">Nové heslo je stejné jako staré heslo</Value>
+      <Value Language="sk">Nové heslo je identické ako staré heslo</Value>
+    </LocalizationKey>
+    <LocalizationKey Key="password_saved">
+      <Value Language="en">Your new password has been successfully saved.</Value>
+      <Value Language="ar">تم حفظ كلمة المرور الجديدة بنجاح.</Value>
+      <Value Language="fr">Votre nouveau mot de passe a été enregistré avec succès.</Value>
+      <Value Language="es">Su nueva contraseña ha sido guardada con éxito.</Value>
+      <Value Language="ru">Ваш новый пароль был успешно сохранен.</Value>
+      <Value Language="zh">已经成功保存您的新密码。</Value>
+      <Value Language="it">La tua nuova password è stata salvata con successo.</Value>
+      <Value Language="ja">新パスワード設定が完了しました。</Value>
+      <Value Language="pl">Your new password has been successfully saved.</Value>
+      <Value Language="sv">Ditt nya lösenord har sparats.</Value>
+      <Value Language="cs">Vaše nové heslo bylo úspěšně uloženo.</Value>
+      <Value Language="sk">Vaše nové heslo bolo úspešne uložené.</Value>
+    </LocalizationKey>
+  </LocalizationKeys>
+</Localization>
